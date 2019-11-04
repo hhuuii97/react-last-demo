@@ -44,18 +44,18 @@ class CourseList extends Component {
                 <img src={course_1} alt="" />
               </div>
               <div className="info">
-                <a href="javascript:;">撩课大前端—Vue项目实战—撩多多商城</a>
+                <a href="javascript:;">H5大前端—Vue项目实战—P多多商城</a>
                 <ul className="list-unstyled">
                   <li>
-                    <span>讲师：叶建华</span>
+                    <span>讲师：黑大帅</span>
                     <span>类别：web大前端</span>
                   </li>
                   <li>
-                    <span>课时：123</span>
-                    <span>学员：111111</span>
+                    <span>课时：60</span>
+                    <span>学员：30</span>
                   </li>
                   <li>
-                    <span>浏览：123333</span>
+                    <span>浏览：999+</span>
                     <span></span>
                   </li>
                 </ul>
@@ -66,18 +66,18 @@ class CourseList extends Component {
                 <img src={course_2} alt="" />
               </div>
               <div className="info">
-                <a href="javascript:;">撩课大前端—Vue项目实战—撩多多商城</a>
+                <a href="javascript:;">H5大前端—H5+CSS3实战—P多多商城</a>
                 <ul className="list-unstyled">
                   <li>
-                    <span>讲师：叶建华</span>
+                    <span>讲师：黑大帅</span>
                     <span>类别：web大前端</span>
                   </li>
                   <li>
-                    <span>课时：123</span>
-                    <span>学员：111111</span>
+                    <span>课时：60</span>
+                    <span>学员：30</span>
                   </li>
                   <li>
-                    <span>浏览：123333</span>
+                    <span>浏览：999+</span>
                     <span></span>
                   </li>
                 </ul>
@@ -88,18 +88,18 @@ class CourseList extends Component {
                 <img src={course_3} alt="" />
               </div>
               <div className="info">
-                <a href="javascript:;">撩课大前端—Vue项目实战—撩多多商城</a>
+                <a href="javascript:;">H5大前端—Python+GUI实战—P多多商城</a>
                 <ul className="list-unstyled">
                   <li>
-                    <span>讲师：叶建华</span>
+                    <span>讲师：黑大帅</span>
                     <span>类别：web大前端</span>
                   </li>
                   <li>
-                    <span>课时：123</span>
-                    <span>学员：111111</span>
+                    <span>课时：60</span>
+                    <span>学员：30</span>
                   </li>
                   <li>
-                    <span>浏览：123333</span>
+                    <span>浏览：999+</span>
                     <span></span>
                   </li>
                 </ul>
@@ -110,18 +110,18 @@ class CourseList extends Component {
                 <img src={course_4} alt="" />
               </div>
               <div className="info">
-                <a href="javascript:;">撩课大前端—Vue项目实战—撩多多商城</a>
+                <a href="javascript:;">H5大前端—JavaEE项目实战—P多多商城</a>
                 <ul className="list-unstyled">
                   <li>
-                    <span>讲师：叶建华</span>
+                    <span>讲师：黑大帅</span>
                     <span>类别：web大前端</span>
                   </li>
                   <li>
-                    <span>课时：123</span>
-                    <span>学员：111111</span>
+                    <span>课时：60</span>
+                    <span>学员：30</span>
                   </li>
                   <li>
-                    <span>浏览：123333</span>
+                    <span>浏览：999+</span>
                     <span></span>
                   </li>
                 </ul>
@@ -132,18 +132,18 @@ class CourseList extends Component {
                 <img src={course_1} alt="" />
               </div>
               <div className="info">
-                <a href="javascript:;">撩课大前端—Vue项目实战—撩多多商城</a>
+                <a href="javascript:;">H5大前端—Vue项目实战—P多多商城</a>
                 <ul className="list-unstyled">
                   <li>
-                    <span>讲师：叶建华</span>
+                    <span>讲师：黑大帅</span>
                     <span>类别：web大前端</span>
                   </li>
                   <li>
-                    <span>课时：123</span>
-                    <span>学员：111111</span>
+                    <span>课时：60</span>
+                    <span>学员：30</span>
                   </li>
                   <li>
-                    <span>浏览：123333</span>
+                    <span>浏览：999+</span>
                     <span></span>
                   </li>
                 </ul>

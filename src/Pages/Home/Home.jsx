@@ -1,7 +1,10 @@
 import React, { Component } from "react";
+import { connect } from "react-redux";
 
 class Home extends Component {
   render() {
+    console.log(this.props.homeData);
+    const { homeData } = this.props;
     return (
       <div className="container-fluid">
         {/* <!-- 个人资料 --> */}
@@ -67,5 +70,12 @@ class Home extends Component {
     );
   }
 }
-
-export default Home;
+const mapStateToProps = state => {
+  return {
+    homeData: state.homeData
+  };
+};
+export default connect(
+  mapStateToProps,
+  null
+)(Home);

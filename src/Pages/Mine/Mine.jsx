@@ -87,19 +87,19 @@ class Mine extends Component {
                 </label>
                 <div className="col-md-5">
                   <select name="" className="form-control input-sm">
-                    <option value="">天津市</option>
                     <option value="">江西省</option>
                     <option value="">广东省</option>
+                    <option value="">天津市</option>
                   </select>
                   <select name="" className="form-control input-sm">
-                    <option value="">天津市</option>
                     <option value="">赣州市</option>
                     <option value="">深圳市</option>
+                    <option value="">天津市</option>
                   </select>
                   <select name="" className="form-control input-sm">
-                    <option value="">河西区</option>
                     <option value="">赣县区</option>
                     <option value="">宝安区</option>
+                    <option value="">河西区</option>
                   </select>
                 </div>
               </div>

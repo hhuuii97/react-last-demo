@@ -8,7 +8,7 @@ class LKHeader extends Component {
         <nav className="navbar navbar-custom">
           <div className="navbar-header">
             <a href="javascript:;" className="navbar-brand">
-              撩课数据分发管理系统
+              录课数据分发管理系统
             </a>
           </div>
           <ul className="nav navbar-nav navbar-right">

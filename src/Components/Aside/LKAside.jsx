@@ -12,7 +12,7 @@ class LKAside extends Component {
           <div className="avatar img-circle">
             <img src={avatar} />
           </div>
-          <h4>MisterX</h4>
+          <h4>黑大帅</h4>
         </div>
         {/* <!-- 导航菜单 --> */}
         <div className="navs">
@@ -59,7 +59,7 @@ class LKAside extends Component {
             <li>
               <a href="/rotation">
                 <i className="fa fa-calculator"></i>
-                轮播图中心
+                轮播中心
               </a>
             </li>
             <li>
