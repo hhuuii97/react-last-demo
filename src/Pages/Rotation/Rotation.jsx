@@ -1,208 +1,64 @@
 import React, { Component } from "react";
-
+import course from "../../Common/images/course.jpg";
+import { connect } from "react-redux";
+import { getSowingDataAction } from "../../Store/actionCreators";
 class Rotation extends Component {
   render() {
     return (
-      <div class="container-fluid">
-        <div class="body advert">
-          <ol class="breadcrumb">
+      <div className="container-fluid">
+        <div className="body advert">
+          <ol className="breadcrumb">
             <li>
-              <a href="javascript:;">建模管理</a>
+              <a href="javascript:;">轮播管理</a>
             </li>
-            <li class="active">建模列表</li>
+            <li className="active">轮播列表</li>
           </ol>
-          <div class="page-title">
-            <a href="sowing_add.html" class="btn btn-danger btn-sm pull-right">
-              添加模块
+          <div className="page-title">
+            <a
+              href="sowing_add.html"
+              className="btn btn-danger btn-sm pull-right"
+            >
+              添加轮播图
             </a>
           </div>
-          <div class="panel panel-default">
-            <div class="panel-body">
-              <form action="" class="form-inline">
-                <select name="" class="form-control input-sm">
+          <div className="panel panel-default">
+            <div className="panel-body">
+              <form action="" className="form-inline">
+                <select name="" className="form-control input-sm">
                   <option value="">按课程</option>
                 </select>
-                <select name="" class="form-control input-sm">
+                <select name="" className="form-control input-sm">
                   <option value="">按学科</option>
                 </select>
-                <select name="" class="form-control input-sm">
+                <select name="" className="form-control input-sm">
                   <option value="">按热度</option>
                 </select>
-                <select name="" class="form-control input-sm">
+                <select name="" className="form-control input-sm">
                   <option value="">按日期</option>
                 </select>
-                <button class="btn btn-primary btn-sm">排序</button>
+                <button className="btn btn-primary btn-sm">排序</button>
               </form>
             </div>
-            <table class="table table-bordered">
-              <thead>
-                <tr>
-                  <td>序号</td>
-                  <th>模块名称</th>
-                  <th>模块类型</th>
-                  <th>上架时间</th>
-                  <th>下架时间</th>
-                  <th>访问次数</th>
-                  <th>操作</th>
-                </tr>
-              </thead>
+
+            <table className="table table-bordered">
               <tbody>
                 <tr>
                   <td>LK001</td>
-                  <td>玩转H5+C3</td>
-                  <td>录播课程</td>
-                  <td>2010/10/01</td>
-                  <td>2020/10/07</td>
-                  <td>1900</td>
+                  <td>课程图片</td>
                   <td>
-                    <a href="javascript:;" class="btn btn-primary btn-xs">
-                      编辑
-                    </a>
-                    <a href="javascript:;" class="btn btn-danger btn-xs">
-                      删除
-                    </a>
+                    <img src={course} alt="" />
                   </td>
-                </tr>
-                <tr>
-                  <td>LK002</td>
-                  <td>玩转H5+C3</td>
-                  <td>录播课程</td>
-                  <td>2010/10/01</td>
-                  <td>2020/10/07</td>
-                  <td>1900</td>
                   <td>
-                    <a href="javascript:;" class="btn btn-primary btn-xs">
-                      编辑
-                    </a>
-                    <a href="javascript:;" class="btn btn-danger btn-xs">
-                      删除
-                    </a>
+                    <img src={course} alt="" />
                   </td>
-                </tr>
-                <tr>
-                  <td>LK003</td>
-                  <td>玩转H5+C3</td>
-                  <td>录播课程</td>
-                  <td>2010/10/01</td>
-                  <td>2020/10/07</td>
-                  <td>1900</td>
+                  <td>www.baidu.com</td>
+                  <td>2020-01-01</td>
+                  <td>2020-01-10</td>
                   <td>
-                    <a href="javascript:;" class="btn btn-primary btn-xs">
+                    <a href="javascript:;" className="btn btn-primary btn-xs">
                       编辑
                     </a>
-                    <a href="javascript:;" class="btn btn-danger btn-xs">
-                      删除
-                    </a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>LK004</td>
-                  <td>玩转H5+C3</td>
-                  <td>录播课程</td>
-                  <td>2010/10/01</td>
-                  <td>2020/10/07</td>
-                  <td>1900</td>
-                  <td>
-                    <a href="javascript:;" class="btn btn-primary btn-xs">
-                      编辑
-                    </a>
-                    <a href="javascript:;" class="btn btn-danger btn-xs">
-                      删除
-                    </a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>LK005</td>
-                  <td>玩转H5+C3</td>
-                  <td>录播课程</td>
-                  <td>2010/10/01</td>
-                  <td>2020/10/07</td>
-                  <td>1900</td>
-                  <td>
-                    <a href="javascript:;" class="btn btn-primary btn-xs">
-                      编辑
-                    </a>
-                    <a href="javascript:;" class="btn btn-danger btn-xs">
-                      删除
-                    </a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>LK006</td>
-                  <td>玩转H5+C3</td>
-                  <td>录播课程</td>
-                  <td>2010/10/01</td>
-                  <td>2020/10/07</td>
-                  <td>1900</td>
-                  <td>
-                    <a href="javascript:;" class="btn btn-primary btn-xs">
-                      编辑
-                    </a>
-                    <a href="javascript:;" class="btn btn-danger btn-xs">
-                      删除
-                    </a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>LK007</td>
-                  <td>玩转H5+C3</td>
-                  <td>录播课程</td>
-                  <td>2010/10/01</td>
-                  <td>2020/10/07</td>
-                  <td>1900</td>
-                  <td>
-                    <a href="javascript:;" class="btn btn-primary btn-xs">
-                      编辑
-                    </a>
-                    <a href="javascript:;" class="btn btn-danger btn-xs">
-                      删除
-                    </a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>LK008</td>
-                  <td>玩转H5+C3</td>
-                  <td>录播课程</td>
-                  <td>2010/10/01</td>
-                  <td>2020/10/07</td>
-                  <td>1900</td>
-                  <td>
-                    <a href="javascript:;" class="btn btn-primary btn-xs">
-                      编辑
-                    </a>
-                    <a href="javascript:;" class="btn btn-danger btn-xs">
-                      删除
-                    </a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>LK009</td>
-                  <td>玩转H5+C3</td>
-                  <td>录播课程</td>
-                  <td>2010/10/01</td>
-                  <td>2020/10/07</td>
-                  <td>1900</td>
-                  <td>
-                    <a href="javascript:;" class="btn btn-primary btn-xs">
-                      编辑
-                    </a>
-                    <a href="javascript:;" class="btn btn-danger btn-xs">
-                      删除
-                    </a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>LK010</td>
-                  <td>玩转H5+C3</td>
-                  <td>录播课程</td>
-                  <td>2010/10/01</td>
-                  <td>2020/10/07</td>
-                  <td>1900</td>
-                  <td>
-                    <a href="javascript:;" class="btn btn-primary btn-xs">
-                      编辑
-                    </a>
-                    <a href="javascript:;" class="btn btn-danger btn-xs">
+                    <a href="javascript:;" className="btn btn-danger btn-xs">
                       删除
                     </a>
                   </td>
@@ -210,7 +66,7 @@ class Rotation extends Component {
               </tbody>
             </table>
           </div>
-          <ul class="pagination pull-right">
+          <ul className="pagination pull-right">
             <li>
               <a href="#">上一页</a>
             </li>
@@ -237,6 +93,28 @@ class Rotation extends Component {
       </div>
     );
   }
+
+  componentDidMount() {
+    this.props.reqSowingData();
+  }
 }
 
-export default Rotation;
+const mapStateToProps = state => {
+  return {
+    sowingData: state.sowingData
+  };
+};
+
+const mapDispatchToProps = dispatch => {
+  return {
+    reqSowingData() {
+      const action = getSowingDataAction();
+      dispatch(action);
+    }
+  };
+};
+
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(Rotation);
